@@ -1,16 +1,16 @@
-import './App.css'
-import PitchDetector from './components/PitchDetector'
+import React from 'react';
+import PitchDetector from './components/PitchDetector';
+import './App.css';
 
 function App() {
+
   return (
-    <>
-      <div>
-        <h1>Tune 808, Drums and More</h1>
-        <p>To tune your insturments please drop the sound file to bottom:</p>
-        <PitchDetector />
+      <div className='card'>
+      <h1>Tune Your 808's, Drums and More 🎺🎺</h1>
+      <p>Upload your audio file and tune your 808's, drums and more with our pitch detector. 🤩🤩</p>
+      <PitchDetector />
       </div>
-    </>
-  )
+      );
 }
 
-export default App
+export default App;
