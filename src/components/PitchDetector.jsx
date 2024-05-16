@@ -21,7 +21,7 @@ const PitchDetector = () => {
             formData.append('audio_file', file);
 
             try {
-              const response = await axios.post('http://localhost:5001/detect_pitch', formData, {
+              const response = await axios.post('https://ce4cb020-f258-4ace-8524-2ea78c01015b-00-s5eeu1kqyyoy.riker.replit.dev/detect_pitch', formData, {
                 headers: {
                   'Content-Type': 'multipart/form-data'
                 }
