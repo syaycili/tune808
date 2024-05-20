@@ -21,7 +21,7 @@ const PitchDetector = () => {
             formData.append('audio_file', file);
 
             try {
-              const response = await axios.post( "https://syaycili.pythonanywhere.com/detect_pitch", formData, {
+              const response = await axios.post( "https://syaycili.pythonanywhere.com/detect_pitch/", formData, {
                 headers: {
                   'Content-Type': 'multipart/form-data'
                 }
