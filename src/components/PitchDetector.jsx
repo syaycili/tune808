@@ -21,7 +21,7 @@ const PitchDetector = () => {
             formData.append('audio_file', file);
 
             try {
-              const response = await axios.post( import.meta.env.VITE_API_URL, formData, {
+              const response = await axios.post( "https://syaycili-tune808.hf.space/detect_pitch", formData, {
                 headers: {
                   'Content-Type': 'multipart/form-data'
                 }
