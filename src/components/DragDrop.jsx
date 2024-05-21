@@ -33,7 +33,7 @@ function DragDrop({pithDetect}) {
         : 
 
         <div>
-        <h3 className="drag-header">Drag and drop your audio file here or click to select a file.</h3>
+        <h3 className="drag-header">Drag and drop your audio file here or click to select a file. 📂</h3>
         <p className="drag-text">Supported file types: {fileTypes.join(", ")}</p>
         </div>
         }

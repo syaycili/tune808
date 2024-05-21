@@ -5,34 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   max-width: 40em;
 }
@@ -47,8 +19,8 @@
 }
 
 .drag-drop {
-  margin: 2em auto;
-  padding: 1em;
+  margin: 4em auto;
+  padding: 3em;
   border: 3px dashed #c5c5c5;
   border-radius: 0.5em;
   cursor: pointer;
@@ -68,4 +40,44 @@
 .drag-text {
   font-size: 0.8em;
   color: #8c8c8c;
+}
+
+.sections{
+  margin: 2em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  text-align: left; 
+}
+
+.section{
+  padding: 0.5em 2em;
+  border-radius: 0.5em;
+  background-color: #f5f5f502;
+  border: #8c8c8c 3px solid;
+  width: 100%;
+
+}
+
+.section-title{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #c5c5c5;
+}
+
+.section-text{
+  font-size: 1em;
+  color: #8c8c8c;
+}
+
+.section-ul{
+  font-size: 1em;
+  color: #8c8c8c;
+  list-style-type: none;
+  padding: 0em;
+}
+
+li{
+  margin-top: 0.5em;
 }
