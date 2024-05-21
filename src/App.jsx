@@ -14,8 +14,8 @@ function App() {
       <meta name="keywords" content="tune 808, how to tune 808, tune 808 online, pitch detector, 808 tuning, drum tuning, music production, beat making, sound engineering" />
     </Helmet>
 
-    <h1>Tune Your 808's, Drums and More 🎺🎺</h1>
-    <p>Upload your audio file and tune your 808's, drums and more with our pitch detector. 🤩🤩</p>
+    <h1>Tune Your 808's, Drums and More 🎺</h1>
+    <p>Upload your audio file and tune your 808, drums and more with our pitch detector. 🤩</p>
 
 
     <PitchDetector/>
