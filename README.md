@@ -1,9 +1,9 @@
 # Pitch Detector App
 
+<img src="https://github.com/syaycili/tune808/blob/master/github-images/screenshot.png" height="200">
+
 Tune your 808's, drums, and more with our pitch detector. Upload your audio file and fine-tune your beats with precision.
-<img src="https://github.com/syaycili/tune808/blob/master/github-images/screenshot.png" height="400">
-
-
+ 
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -23,7 +23,7 @@ The Pitch Detector App is designed for music producers and sound engineers who n
 
 ## Usage
 
-<img src="https://github.com/syaycili/tune808/blob/master/github-images/dragpreview.gif" height="400">
+<img src="https://github.com/syaycili/tune808/blob/master/github-images/dragpreview.gif" height="200">
 
 1. Upload your audio file using the upload button.
 2. The tool will analyze the pitch of your audio in real-time.
