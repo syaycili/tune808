@@ -11,7 +11,7 @@ function App() {
     <Helmet>
       <title>Tune Your 808's, Drums and More</title>
       <meta name="description" content="Upload your audio file and tune your 808's, drums and more with our pitch detector. Perfect for music producers looking to fine-tune their beats." />
-      <meta name="keywords" content="tune 808, how to tune 808, pitch detector, 808 tuning, drum tuning, music production, beat making, sound engineering" />
+      <meta name="keywords" content="tune 808, how to tune 808, tune 808 online, pitch detector, 808 tuning, drum tuning, music production, beat making, sound engineering" />
     </Helmet>
 
     <h1>Tune Your 808's, Drums and More 🎺🎺</h1>
